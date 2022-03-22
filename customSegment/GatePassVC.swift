@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 import LZViewPager
-class GatePassVC: BaseViewController, LZViewPagerDelegate, LZViewPagerDataSource {
+class GatePassVC: UIViewController, LZViewPagerDelegate, LZViewPagerDataSource {
 
     
     

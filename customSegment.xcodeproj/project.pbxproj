@@ -24,10 +24,6 @@
 		F6CF7B3327E9B4910075EFC2 /* cViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF7B3227E9B4910075EFC2 /* cViewController.swift */; };
 		F6CF7B3827E9B49C0075EFC2 /* eViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF7B3727E9B49C0075EFC2 /* eViewController.swift */; };
 		F6CF7B3D27E9B4A90075EFC2 /* dViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF7B3C27E9B4A90075EFC2 /* dViewController.swift */; };
-		F6CF7B5627E9B9450075EFC2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF7B5227E9B9450075EFC2 /* BaseViewController.swift */; };
-		F6CF7B5727E9B9450075EFC2 /* LZViewPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF7B5327E9B9450075EFC2 /* LZViewPager.swift */; };
-		F6CF7B5827E9B9450075EFC2 /* LZViewPagerContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF7B5427E9B9450075EFC2 /* LZViewPagerContent.swift */; };
-		F6CF7B5927E9B9450075EFC2 /* LZViewPagerHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF7B5527E9B9450075EFC2 /* LZViewPagerHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,10 +73,6 @@
 		F6CF7B3227E9B4910075EFC2 /* cViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cViewController.swift; sourceTree = "<group>"; };
 		F6CF7B3727E9B49C0075EFC2 /* eViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eViewController.swift; sourceTree = "<group>"; };
 		F6CF7B3C27E9B4A90075EFC2 /* dViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dViewController.swift; sourceTree = "<group>"; };
-		F6CF7B5227E9B9450075EFC2 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		F6CF7B5327E9B9450075EFC2 /* LZViewPager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZViewPager.swift; sourceTree = "<group>"; };
-		F6CF7B5427E9B9450075EFC2 /* LZViewPagerContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZViewPagerContent.swift; sourceTree = "<group>"; };
-		F6CF7B5527E9B9450075EFC2 /* LZViewPagerHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZViewPagerHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,7 +151,6 @@
 		F6CF7AD527E9B24F0075EFC2 /* customSegment */ = {
 			isa = PBXGroup;
 			children = (
-				F6CF7B5127E9B9450075EFC2 /* LZViewPager */,
 				F6CF7AD627E9B24F0075EFC2 /* AppDelegate.swift */,
 				F6CF7AD827E9B24F0075EFC2 /* SceneDelegate.swift */,
 				F6CF7ADA27E9B24F0075EFC2 /* ViewController.swift */,
@@ -193,17 +184,6 @@
 				F6CF7AFA27E9B2520075EFC2 /* Info.plist */,
 			);
 			path = customSegmentUITests;
-			sourceTree = "<group>";
-		};
-		F6CF7B5127E9B9450075EFC2 /* LZViewPager */ = {
-			isa = PBXGroup;
-			children = (
-				F6CF7B5227E9B9450075EFC2 /* BaseViewController.swift */,
-				F6CF7B5327E9B9450075EFC2 /* LZViewPager.swift */,
-				F6CF7B5427E9B9450075EFC2 /* LZViewPagerContent.swift */,
-				F6CF7B5527E9B9450075EFC2 /* LZViewPagerHeader.swift */,
-			);
-			path = LZViewPager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -446,13 +426,9 @@
 			files = (
 				F6CF7B1227E9B3BF0075EFC2 /* GatePassVC.swift in Sources */,
 				F6CF7B3D27E9B4A90075EFC2 /* dViewController.swift in Sources */,
-				F6CF7B5827E9B9450075EFC2 /* LZViewPagerContent.swift in Sources */,
 				F6CF7B2E27E9B4860075EFC2 /* bViewController.swift in Sources */,
-				F6CF7B5727E9B9450075EFC2 /* LZViewPager.swift in Sources */,
-				F6CF7B5927E9B9450075EFC2 /* LZViewPagerHeader.swift in Sources */,
 				F6CF7ADB27E9B24F0075EFC2 /* ViewController.swift in Sources */,
 				F6CF7B3327E9B4910075EFC2 /* cViewController.swift in Sources */,
-				F6CF7B5627E9B9450075EFC2 /* BaseViewController.swift in Sources */,
 				F6CF7B3827E9B49C0075EFC2 /* eViewController.swift in Sources */,
 				F6CF7B2927E9B47C0075EFC2 /* aViewController.swift in Sources */,
 				F6CF7AD727E9B24F0075EFC2 /* AppDelegate.swift in Sources */,
